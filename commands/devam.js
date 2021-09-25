@@ -1,5 +1,5 @@
 module.exports = {
-  name: "devam", 
+  name: "resume", 
   description: "ArdaDemr - Youtube",
   execute (client, message, args) {
       const { channel } = message.member.voice;
@@ -13,7 +13,7 @@ module.exports = {
       serverQueue.playing = true;
       serverQueue.connection.dispatcher.resume(true)
   
-  return message.channel.send("✅ **| Duraklatılan şarkı sürdürüldü.**") 
+  return message.channel.send("✅ **| Duraklatılan Devam Ediyor**") 
  } 
     
     message.channel.send("**Duraklatılan bir şarkı yok.**")

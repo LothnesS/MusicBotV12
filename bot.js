@@ -7,7 +7,7 @@ const ayarlar = require("./ayarlar.json")
 // ARDADEMR YOUTUBE KANALINDAN ALINMIŞTIR
 client.on("ready", () => {
   console.log('ArdaDemr Youtube Kanalına Abone Olmayı Unutma! BOTUN AKTİF!')
-  client.user.setActivity("ArdaDemr - Youtube")
+  client.user.setActivity("🎶 Froxy Music・V2 Güncellemesi Yayında・-yardım・")
 })
 client.on("warn", info => console.log(info));
 

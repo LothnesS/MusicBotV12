@@ -1,5 +1,5 @@
 module.exports = {
-  name: "durdur",
+  name: "stop",
   description: "ArdaDemr - Youtube",
   execute (client, message, args) {
   const { channel } = message.member.voice;
@@ -17,7 +17,7 @@ module.exports = {
       serverQueue.playing = false;
       serverQueue.connection.dispatcher.pause(true)
       
-      return message.channel.send("✅ **| Oynatılan şarkı duraklatıldı.**")
+      return message.channel.send("✅ **| Oynatılan Şarkı Durduruldu**")
   }  
   }
 }

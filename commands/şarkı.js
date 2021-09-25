@@ -1,5 +1,5 @@
 module.exports = {
-  name: "şarkı",
+  name: "current",
   description: "ArdaDemr - Youtube",
   execute (client, message, args) {
     
@@ -13,7 +13,7 @@ module.exports = {
     if (!serverQueue) {
       return message.channel.send("**Herhangi bir şarkı oynatmıyorum.**");
     }
-    message.channel.send(serverQueue.songs[0].title + ' - **Şuanda Oynatılan Şarkı.**')
+    message.channel.send(serverQueue.songs[0].title + ' - **Şuanda Oynatılan Şarkı**')
 
     
     

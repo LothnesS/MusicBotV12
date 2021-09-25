@@ -1,5 +1,5 @@
 module.exports = {
-  name: "atla",
+  name: "skip",
   description: "ArdaDemr - Youtube",
   execute(client, message, args) {
     const { channel } = message.member.voice;
@@ -14,6 +14,6 @@ module.exports = {
       return message.channel.send("**Atlayabileceğim bir şarkı yok.**");
     }
     serverQueue.connection.dispatcher.end();
-    message.channel.send("✔ **| Şarkı geçildi.**");
+    message.channel.send("✔ **| Şarkı Geçildi**");
   }
 };
